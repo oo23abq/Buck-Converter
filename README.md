@@ -31,7 +31,7 @@ These values will be refined once the LTspice schematic is finalised.
 
 📐 LTspice Simulations Included
 
-The following was simulated fully in LTspice
+The following was simulated fully in LTspice: 
 
 * Output voltage regulation
 * Output ripple measurement
@@ -41,7 +41,3 @@ The following was simulated fully in LTspice
 * Load step response
 * Line step response
 * Efficiency vs load sweep
-
-Optional: loop stability (Bode plot)
-
-All results are documented in docs/ltspice_simulation.md.
