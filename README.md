@@ -45,23 +45,23 @@ The following was simulated fully in LTspice:
 ## Repository Structure
 
 ```text
-├── docs/                               # Design documentation and test reports
-│   └── testreport.docx                 # Formal test and validation report
-├── kicad/                              # KiCad project hardware design files
-│   ├── Buck Converter.kicad_pcb        # PCB layout file
-│   ├── Buck Converter.kicad_sch        # Schematic capture file
+├── docs/                               # General Documentation 
+│   └── testreport.docx                 # Lab Test Report
+├── kicad/                              # KiCAD Project Files 
+│   ├── Buck Converter.kicad_pcb        # PCB Board File 
+│   ├── Buck Converter.kicad_sch        # Schematic File 
 │   ├── bom.csv                         # Bill of Materials
-│   ├── gerber/                         # Fabrication outputs
-│   │   └── buck.zip                    # Production Gerber and drill archives
-│   └── images/                         # 2D/3D PCB board preview renders
-│       ├── buckconverterbottom.png     # Bottom layer render
-│       └── buckconvertertop.png        # Top layer render
-├── ltspice/                            # Circuit simulation workspace
-│   ├── models.asc                      # Component simulation models
-│   └── schematic.asc                   # LTspice circuit simulation schematic
-├── testing/                            # Laboratory validation captures
-│   ├── oscilloscopeinput.png           # Input voltage/ripple waveform
+│   ├── gerber/                         # Manufacturing Files 
+│   │   └── buck.zip                    # Gerber, NC Drill Files 
+│   └── images/                         # 3D PCB Renders 
+│       ├── buckconverterbottom.png     # Bottom Layer
+│       └── buckconvertertop.png        # Top Layer 
+├── ltspice/                            # Analog Simulation Files 
+│   ├── models.asc                      # Component Models 
+│   └── schematic.asc                   # LTspice schematic
+├── testing/                            # Lab Testing
+│   ├── oscilloscopeinput.png           # Input Ripple Waveforms 
 │   ├── oscilloscopeoutput.png          # Output transient response waveform
-│   └── testsetup.png                   # Physical bench test setup photograph
-├── LICENSE                             # License file
-└── README.md                           # Project documentation and summary
+│   └── testsetup.png                   # Bench Test Setup 
+├── LICENSE                             # MIT Licence File 
+└── README.md                           # Guidance / info 
