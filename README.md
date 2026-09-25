@@ -41,3 +41,27 @@ The following was simulated fully in LTspice:
 * Load step response
 * Line step response
 * Efficiency vs load sweep
+
+## Repository Structure
+
+```text
+├── docs/                               # Design documentation and test reports
+│   └── testreport.docx                 # Formal test and validation report
+├── kicad/                              # KiCad project hardware design files
+│   ├── Buck Converter.kicad_pcb        # PCB layout file
+│   ├── Buck Converter.kicad_sch        # Schematic capture file
+│   ├── bom.csv                         # Bill of Materials
+│   ├── gerber/                         # Fabrication outputs
+│   │   └── buck.zip                    # Production Gerber and drill archives
+│   └── images/                         # 2D/3D PCB board preview renders
+│       ├── buckconverterbottom.png     # Bottom layer render
+│       └── buckconvertertop.png        # Top layer render
+├── ltspice/                            # Circuit simulation workspace
+│   ├── models.asc                      # Component simulation models
+│   └── schematic.asc                   # LTspice circuit simulation schematic
+├── testing/                            # Laboratory validation captures
+│   ├── oscilloscopeinput.png           # Input voltage/ripple waveform
+│   ├── oscilloscopeoutput.png          # Output transient response waveform
+│   └── testsetup.png                   # Physical bench test setup photograph
+├── LICENSE                             # License file
+└── README.md                           # Project documentation and summary
